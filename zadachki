@@ -1,0 +1,51 @@
+from math import sqrt
+# x = int(input("Enter x:"))
+# y = int(input("Enter y:"))
+# if x<0:
+#     if x > y:
+#         z = x
+#     else:
+#         z = y
+# else:
+#     z = (x+y)/2
+# print("z:",z)
+
+# zadacha2
+# a = int(input("enter a:"))
+# b = int(input("enter b:"))
+# c = int(input("enter c:"))
+# D = b**2-4*a*c
+# if D > 0:
+#     xf = (-b + sqrt(D)) / (2 * a)
+#     xd = (-b + sqrt(D)) / (2 * a)
+#     print("x1:",xf,"x2:",xd)
+# elif D == 0:
+#     x = round(-b)/(2*a)
+#     print("x: ", x)
+# else:
+#     print("Roots is not exist,")
+
+# zadacha3
+# x = int(input("Enter num: "))
+# if x % 2 == 0:
+#     print("Четное;")
+# if x % 10 == 7:
+#     print("Оканчивается на 7;")
+# if x % 13 == 0:
+#     print("Делится на 13;")
+
+# zadazha4
+# l = int(input("введите число:"))
+# num_1 = l // 100
+# num_2 = l // 10 % 10
+# num_3 = l % 10
+# # Верно ли что все цифры одинаковы
+# if num_1 == num_2 == num_3:
+#     print("да")
+# else:
+#     print("НЕТ")
+# # Есть ли среди чисел одинаковые
+# if num_1 == num_2 or num_1 == num_3 or num_2 == num_3:
+#     print("ДА")
+# else:
+#     print("НЕТ")
