@@ -49,3 +49,78 @@ from math import sqrt
 #     print("ДА")
 # else:
 #     print("НЕТ")
+    
+# zadazha5
+#l = int(input())
+# b = l % 100
+# b = b % 10 + b // 10
+# l = l // 100
+# l = l % 10 + l // 10
+# # равна ли сумма 2ух первых чисел 2ум последним
+# if b == l:
+#     print('hello')
+# else:
+#     print('jjkkj')
+# кратна ли 3 сумма его цифр
+# b = l % 100
+# l = l // 100
+# b = b % 10 + b // 10 + l % 10 + l // 10
+# t = int(input())
+# if b % t == 0:
+#     print('hello')
+# else:
+#     print('fgus')
+# b = l // 1000
+# if b != l % 10:
+#     print('fgfoi')
+# else:
+#     b = l // 100 % 10
+#     if b != (l % 100 // 10):
+#         print('hgdhf')
+#     else:
+#         print('hello')
+
+#zadazha6
+# l = int(input('прямо - 1; направо - 2; налево - 3'))
+# if l == 1:
+#     print('вуз')
+# if l == 2:
+#     print('повар')
+# if l == 3:
+#     print('физрук')
+
+#zadazha7
+# l = int(input())
+# f = int(input())
+# g = int(input())
+
+# сложнее
+# if l > f and l > g:
+#     print('l')
+# if f > l:
+#     if g > f:
+#         print('g')
+#     else:
+#         print('f')
+#a
+# if l > f and l > g:
+#     print('l')
+# if f > l and f > g:
+#     print('f')
+# if g > f and g > l:
+#     print('g')
+#b
+# if f > l:
+#     if g > f:
+#          print('g')
+#     else:
+#         print('f')
+# else:
+#     print('l')
+#c
+# if g < l > f:
+#     print('l')
+# if g < f > l:
+#     print('f')
+# if l < g > f:
+#     print('g')
